@@ -1,0 +1,69 @@
+@import "./../../index.scss";
+
+// Component variables
+$blue-bg: rgb(25,39,56);
+$currency-color: rgb(180,191,204);
+$price-up-color: rgb(0,204,102);
+$price-down-color: rgb(242,95,92);
+
+.DataLoader {
+  background: $blue-bg;
+  margin: 40px auto;
+  max-width: 490px;
+  padding: 12px;
+
+  .row {
+      div {
+      vertical-align: baseline;
+      display: inline-block;
+      padding-right: 6px;
+      min-width: 80px;
+      }
+
+      .name {
+        min-width: 200px;
+        max-width: 200px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        vertical-align: middle;
+        padding-right: 12px;
+
+        @media screen and (max-width: 500px) {
+          display: none;
+        }
+      }
+
+      .symbol {
+        padding-right: 12px;
+      }
+
+      .price {
+        color: $currency-color;
+        min-width: 50px;
+        text-align: right;
+      }
+
+      .currency {
+        color: $currency-color;
+        font-size: $small-font-size;
+        min-width: 30px;
+      }
+      
+      .change-up {
+        color: $price-up-color;
+        font-size: $small-font-size;
+        min-width: 30px;
+      }
+      
+      .change-down {
+        color: $price-down-color;
+        font-size: $small-font-size;
+        min-width: 30px;
+      }
+      
+      .percentage {
+        padding-right: 0;
+      }
+  }
+}

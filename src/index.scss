@@ -1,0 +1,15 @@
+//global variables
+$base-font-size: 16px;
+$small-font-size: 12px;
+$base-line-height: 24px;
+$base-font-color: #fff;
+$base-font-family: Arial;;
+
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: $base-font-family;
+  color: $base-font-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
