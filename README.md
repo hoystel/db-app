@@ -1,12 +1,3 @@
-Deutsche Bank - Enterprise Risk Technology
-------------------------------------------
-UI Developer: Candidate Assignment
-==================================
-
-Details:
---------
-Candidate name: Luke Hoysted
-Approximate time spent: 5 hours
 
 Installation & Execution
 ------------------------
